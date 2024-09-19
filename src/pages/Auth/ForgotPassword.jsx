@@ -53,7 +53,7 @@ const ForgotPasswordForm = () => {
                   <Input
                     {...field}
                     className="border w-full border-gray-700 py-5 px-5"
-                    placeholder="enter your email"
+                    placeholder="Enter your email"
                   />
                 </FormControl>
 

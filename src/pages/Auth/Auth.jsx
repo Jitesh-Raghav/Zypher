@@ -50,12 +50,12 @@ console.log("---------- ",auth.error)
       <div className="absolute top-0 right-0 left-0 bottom-0 bg-[#030712] bg-opacity-50"></div>
 
       <div
-        className={`bgBlure absolute top-1/2 left-1/2 transform -translate-x-1/2  -translate-y-1/2 box flex flex-col justify-center items-center  h-[35rem] w-[30rem]  rounded-md z-50 bg-black bg-opacity-50 shadow-2xl shadow-white`}
+        className={`bgBlure absolute top-1/2 left-1/2 transform -translate-x-1/2  -translate-y-1/2 box flex flex-col justify-center items-center  h-[35rem] w-[30rem]  rounded-xl z-50 bg-black bg-opacity-50 shadow-2xl shadow-white`}
       >
          <CustomeToast show={auth.error} message={auth.error?.error}/>
      
 
-        <h1 className="text-6xl font-bold pb-9">Zosh Trading</h1>
+        <h1 className="text-6xl font-bold pb-9">Zypher</h1>
         {/* <Avatar>
           <AvatarImage src="https://cdn.pixabay.com/photo/2019/04/15/20/42/bitcoin-4130299_1280.png"/>
           <AvatarFallback>BTC</AvatarFallback>
@@ -70,22 +70,22 @@ console.log("---------- ",auth.error)
 
               {location.pathname == "/signup" ? (
                 <div className="flex items-center justify-center">
-                  <span> {"don't have account ?"} </span>
+                  <span> Don't have an account? </span>
                   <Button
                     onClick={() => handleNavigation("/signin")}
                     variant="ghost"
                   >
-                    signin
+                    Signin
                   </Button>
                 </div>
               ) : (
                 <div className="flex items-center justify-center">
-                  <span>already have account ? </span>
+                  <span>Already have an account ? </span>
                   <Button
                     onClick={() => handleNavigation("/signup")}
                     variant="ghost"
                   >
-                    signup
+                    Signup
                   </Button>
                 </div>
               )}
@@ -100,7 +100,7 @@ console.log("---------- ",auth.error)
             <div className="flex items-center justify-center mt-5">
               <span>Back To Login ? </span>
               <Button onClick={() => navigate("/signin")} variant="ghost">
-                signin
+                Signin
               </Button>
             </div>
           </section>
@@ -112,12 +112,12 @@ console.log("---------- ",auth.error)
                   <LoginForm />
 
                   <div className="flex items-center justify-center">
-                    <span>already have account ? </span>
+                    <span>Already have an account ? </span>
                     <Button
                       onClick={() => handleNavigation("/signup")}
                       variant="ghost"
                     >
-                      signup
+                      Signup
                     </Button>
                   </div>
                   <div className="">
