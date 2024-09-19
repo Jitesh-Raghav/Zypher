@@ -70,7 +70,7 @@ const ResetPasswordForm = () => {
               <h1 className="pb-2">Verify OTP</h1>
               <FormField
                 control={form.control}
-                name="otp"
+                name="OTP"
                 render={({ field }) => (
                   <FormItem>
                     <FormControl>
@@ -96,14 +96,14 @@ const ResetPasswordForm = () => {
               <h1 className="pt-7 pb-2">Change Password</h1>
               <FormField
                 control={form.control}
-                name="password"
+                name="Password"
                 render={({ field }) => (
                   <FormItem>
                     <FormControl>
                       <Input
                         {...field}
                         className="border w-full border-gray-700 py-5 px-5"
-                        placeholder="new password"
+                        placeholder="New Password"
                       />
                     </FormControl>
 
@@ -114,14 +114,14 @@ const ResetPasswordForm = () => {
 
               <FormField
                 control={form.control}
-                name="confirmPassword"
+                name="confirm password"
                 render={({ field }) => (
                   <FormItem>
                     <FormControl>
                       <Input
                         {...field}
                         className="border w-full border-gray-700 py-5 px-5"
-                        placeholder="confirm password..."
+                        placeholder="confirm password"
                       />
                     </FormControl>
 
