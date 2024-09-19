@@ -124,7 +124,7 @@ const TreadingForm = () => {
         <p>Market Order</p>
       </div>
       <div className="flex items-center justify-between">
-        <p>{orderType == "BUY" ? "Available Case" : "Available Quantity"}</p>
+        <p>{orderType == "BUY" ? "Available Cash" : "Available Quantity"}</p>
         <div>
           {orderType == "BUY" ? (
             <div className="flex items-center ">

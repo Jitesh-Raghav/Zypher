@@ -36,7 +36,7 @@ const menu = [
   },
   { name: "Wallet", path: "/wallet", icon: <WalletIcon /> },
   {
-    name: "Payment Details",
+    name: "Payments",
     path: "/payment-details",
     icon: <LandmarkIcon className="h-6 w-6" />,
   },

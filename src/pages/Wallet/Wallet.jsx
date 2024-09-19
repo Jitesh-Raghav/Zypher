@@ -187,7 +187,7 @@ const Wallet = () => {
                 <DialogTrigger>
                   <div className="h-24 w-24 hover:text-gray-400 cursor-pointer flex flex-col items-center justify-center rounded-md shadow-slate-800 shadow-md">
                     <ShuffleIcon />
-                    <span className="text-sm mt-2">Transer</span>
+                    <span className="text-sm mt-2">Transfer</span>
                   </div>
                 </DialogTrigger>
                 <DialogContent className="p-10">

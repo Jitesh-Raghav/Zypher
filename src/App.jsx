@@ -52,6 +52,9 @@ dispatch(getUser(localStorage.getItem("jwt")))
   return (
     <>
       {" "}
+      
+
+
       {auth.user ? (
         <>
          {showNavbar && <Navbar />}

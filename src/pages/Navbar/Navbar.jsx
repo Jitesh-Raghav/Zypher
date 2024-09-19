@@ -49,11 +49,11 @@ const Navbar = () => {
                 <SheetTitle>
                   <div className="text-3xl flex justify-center  items-center gap-1">
                     <Avatar className="h-10 w-10">
-                      <AvatarImage src="https://cdn.pixabay.com/photo/2021/04/30/16/47/binance-logo-6219389_1280.png" />
+                      <AvatarImage src="https://i.pinimg.com/736x/78/c9/cb/78c9cb704646d2d43bf6518fbcd14c1d.jpg" />
                     </Avatar>
                     <div>
-                      <span className="font-bold text-orange-700">Zosh</span>
-                      <span>Tread</span>
+                      <span className="font-bold text-orange-700">Zypher</span>
+                      <span>Trading</span>
                     </div>
                   </div>
                 </SheetTitle>
@@ -66,7 +66,7 @@ const Navbar = () => {
             onClick={() => navigate("/")}
             className="text-sm lg:text-base cursor-pointer"
           >
-            Zosh Treading
+            Zypher Trading
           </p>
           <div className="p-0 ml-9">
             <Button
